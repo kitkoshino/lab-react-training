@@ -1,0 +1,28 @@
+.id-cards {
+  display: flex;
+  height: 200px;
+  width: 800px;
+  align-items: center;
+  
+}
+
+.id-cards img {
+  height: 150px;
+}
+
+.user-data {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.user-data p {
+  margin: 0;
+  padding: 5px 0 0 5px;
+}
+
+.box-style {
+  border: solid 3px black;
+  width: 800px;
+  margin-bottom: 20px;
+}
