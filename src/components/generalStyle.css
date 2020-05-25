@@ -1,6 +1,7 @@
 .box-style {
-  border: solid 3px black;
+  border: solid 1px black;
   width: 800px;
   margin-bottom: 20px;
   text-align: left;
+  padding: 5px;
 }

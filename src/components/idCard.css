@@ -1,13 +1,8 @@
 .id-cards {
   display: flex;
-  height: 200px;
   width: 800px;
   align-items: center;
   
-}
-
-.id-cards img {
-  height: 150px;
 }
 
 .user-data {
