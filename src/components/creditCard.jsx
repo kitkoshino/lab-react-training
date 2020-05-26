@@ -31,22 +31,22 @@ const CreditCard = (props) => {
       <img src={typeImage} alt="" />
       <div className="card-number">
         <div className="number">
-          <span className="dot"></span>
-          <span className="dot"></span>
-          <span className="dot"></span>
-          <span className="dot"></span>
+          <span className="dot" style={{ backgroundColor: color }}></span>
+          <span className="dot" style={{ backgroundColor: color }}></span>
+          <span className="dot" style={{ backgroundColor: color }}></span>
+          <span className="dot" style={{ backgroundColor: color }}></span>
         </div>
         <div className="number">
-          <span className="dot"></span>
-          <span className="dot"></span>
-          <span className="dot"></span>
-          <span className="dot"></span>
+          <span className="dot" style={{ backgroundColor: color }}></span>
+          <span className="dot" style={{ backgroundColor: color }}></span>
+          <span className="dot" style={{ backgroundColor: color }}></span>
+          <span className="dot" style={{ backgroundColor: color }}></span>
         </div>
         <div className="number">
-          <span className="dot"></span>
-          <span className="dot"></span>
-          <span className="dot"></span>
-          <span className="dot"></span>
+          <span className="dot" style={{ backgroundColor: color }}></span>
+          <span className="dot" style={{ backgroundColor: color }}></span>
+          <span className="dot" style={{ backgroundColor: color }}></span>
+          <span className="dot" style={{ backgroundColor: color }}></span>
         </div>
         <div className="number">{number.toString().slice(-4)}</div>
       </div>

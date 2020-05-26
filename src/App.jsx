@@ -4,8 +4,11 @@ import Greetings from './components/greetings';
 import Random from './components/random';
 import BoxColor from './components/boxColor';
 import CreditCard from './components/creditCard';
+import Rating from './components/rating';
 import LikeButton from './components/likeButton';
 import ClickablePicture from './components/clickablePicture';
+import Dice from './components/dice';
+import Carousel from './components/carousel';
 import './App.css';
 
 function App() {
@@ -91,6 +94,28 @@ function App() {
           img="/img/persons/maxence.png"
           imgOne="/img/persons/maxence-glasses.png"
         />
+      </div>
+      <div className="main-box">
+        <h2>Dice</h2>
+        <Dice />
+      </div>
+      <div className="carousel-box">
+        <Carousel
+          imgs={[
+            'https://randomuser.me/api/portraits/women/1.jpg',
+            'https://randomuser.me/api/portraits/men/1.jpg',
+            'https://randomuser.me/api/portraits/women/2.jpg',
+            'https://randomuser.me/api/portraits/men/2.jpg',
+          ]}
+        />
+      </div>
+      <div className="rating-box">
+        <Rating>0</Rating>
+        <Rating>1.49</Rating>
+        <Rating>1.5</Rating>
+        <Rating>3</Rating>
+        <Rating>4</Rating>
+        <Rating>5</Rating>
       </div>
     </div>
   );
