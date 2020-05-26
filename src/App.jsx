@@ -1,10 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import IdCard from './components/idCard';
 import Greetings from './components/greetings';
 import Random from './components/random';
 import BoxColor from './components/boxColor';
 import CreditCard from './components/creditCard';
+import LikeButton from './components/likeButton';
+import ClickablePicture from './components/clickablePicture';
 import './App.css';
 
 function App() {
@@ -75,6 +76,20 @@ function App() {
           owner="Firstname Lastname"
           bgColor="#ddbb55"
           color="white"
+        />
+      </div>
+      <div className="main-box">
+        <h2>Like Button</h2>
+        <div className="like-buttons">
+          <LikeButton />
+          <LikeButton />
+        </div>
+      </div>
+      <div className="main-box">
+        <h2>Clickable Picture</h2>
+        <ClickablePicture
+          img="/img/persons/maxence.png"
+          imgOne="/img/persons/maxence-glasses.png"
         />
       </div>
     </div>

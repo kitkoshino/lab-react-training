@@ -11,12 +11,16 @@
 
 .main-box {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .credit-card-box {
+  display: flex;
+}
+
+.like-buttons {
   display: flex;
 }
 
