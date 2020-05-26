@@ -1,0 +1,59 @@
+.credit-card {
+  width: 400px;
+  height: 200px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.credit-card img {
+  width: 50px;
+  text-align: right;
+  margin: 15px;
+  display: flex;
+  align-self: flex-end;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.card-number {
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+  align-self: center;
+}
+
+.number {
+  margin-left: 20px;
+}
+
+.card-data {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: start;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.card-data p {
+  margin: 0;
+}
+
+.date-and-bank {
+  display: flex;
+  width: 200px;
+}
+
+.date-and-bank p {
+  margin: 0px 15px 0 0;
+
+}
